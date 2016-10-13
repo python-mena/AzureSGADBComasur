@@ -16,6 +16,7 @@ namespace AzureSGADBComasur.Controllers
         public PermisosController()
         {
             ctx = new ModeloPermisoEntities1();
+            
         }
 
         // GET: Product
@@ -46,7 +47,7 @@ namespace AzureSGADBComasur.Controllers
         [AuthLog(Roles = "Capturista")]
         public ActionResult SalePermiso()
         {
-            ViewBag.Message = "Esta vista está diseñado para el ejecutivo de ventas para la venta del producto";
+            ViewBag.Message = "Esta vista está diseñado para el captusristas de roles";
             return View();
         }
 
