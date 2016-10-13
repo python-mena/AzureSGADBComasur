@@ -12,7 +12,6 @@ namespace AzureSGADBComasur.FiltrosPersonalizados {
         {
             View = "AuthorizeFailed";
         }
-
         public string View { get; set; }
 
         /// <summary>
